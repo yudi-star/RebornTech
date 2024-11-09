@@ -7,8 +7,8 @@
     <title>Reborntech</title>
     @vite("resources/css/app.css")
 </head>
-<body>
-    <!-- Cabecera -->
+<body class="flex flex-col min-h-screen">
+    <!-- Header -->
     <header class="bg-black text-white p-4 flex items-center justify-between">
         <!-- Logo de la empresa -->
         <div class="flex items-center mr-4">
@@ -49,10 +49,66 @@
         </div>
     </header>
     <!-- Fin de la cabecera -->
-    <h1>Hola mundo bb</h1>
+    <!-- Footer -->
+    <footer class="bg-black text-white p-8 mt-auto">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+            <!-- Redes Sociales -->
+            <div>
+                <h3 class="text-yellow-400 font-bold mb-4">VISITA NUESTRAS REDES</h3>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:opacity-80"><img src="{{ asset('img/fblogofifi.png') }}" alt="Facebook" class="w-8 h-8"></a>
+                    <a href="#" class="hover:opacity-80"><img src="{{ asset('img/iglogo.png') }}" alt="Instagram" class="w-8 h-8"></a>
+                    <a href="#" class="hover:opacity-80"><img src="{{ asset('img/ytlogo.png') }}" alt="YouTube" class="w-8 h-8"></a>
+                    <a href="#" class="hover:opacity-80"><img src="{{ asset('img/tiktologo.png') }}" alt="TikTok" class="w-8 h-8"></a>
+                    <a href="#" class="hover:opacity-80"><img src="{{ asset('img/twilogo.png') }}" alt="Twitter" class="w-8 h-8"></a>
+                </div>
+            </div>
 
-    
-    
+            <!-- Nuestra Empresa -->
+            <div>
+                <h3 class="text-yellow-400 font-bold mb-4">NUESTRA EMPRESA</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-yellow-400">Acerca de nosotros</a></li>
+                </ul>
+            </div>
+
+            <!-- Productos -->
+            <div>
+                <h3 class="text-yellow-400 font-bold mb-4">PRODUCTOS</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-yellow-400">Ofertas</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Productos más vendidos</a></li>
+                </ul>
+            </div>
+
+            <!-- Te Ayudamos -->
+            <div>
+                <h3 class="text-yellow-400 font-bold mb-4">TE AYUDAMOS</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-yellow-400">Atención al cliente</a></li>
+                </ul>
+            </div>
+
+            <!-- Métodos de Pago -->
+            <div>
+                <h3 class="text-yellow-400 font-bold mb-4">MÉTODOS DE PAGO</h3>
+                <div class="flex flex-col space-y-4">
+                    <!-- Primera fila: 3 logos -->
+                    <div class="flex justify-between items-center">
+                        <img src="{{ asset('img/goopay.png') }}" alt="Google Pay" class="w-auto h-6 object-contain">
+                        <img src="{{ asset('img/mastercad.png') }}" alt="Mastercard" class="w-auto h-10 object-contain">
+                        <img src="{{ asset('img/vilogo.png') }}" alt="Visa" class="w-auto h-6 object-contain">
+                    </div>
+                    <!-- Segunda fila: 2 logos -->
+                    <div class="flex justify-around items-center">
+                        <img src="{{ asset('img/paypalogo.png') }}" alt="PayPal" class="w-auto h-6 object-contain">
+                        <img src="{{ asset('img/amerilogo.png') }}" alt="American Express" class="w-auto h-6 object-contain">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin del Footer -->
 </body>
 
 </html>
