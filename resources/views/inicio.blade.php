@@ -51,7 +51,7 @@
     <!-- Fin de la cabecera -->
     <!-- Footer -->
     <footer class="bg-black text-white p-8 mt-auto">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
             <!-- Redes Sociales -->
             <div>
                 <h3 class="text-yellow-400 font-bold mb-4">VISITA NUESTRAS REDES</h3>
@@ -69,15 +69,6 @@
                 <h3 class="text-yellow-400 font-bold mb-4">NUESTRA EMPRESA</h3>
                 <ul class="space-y-2">
                     <li><a href="#" class="hover:text-yellow-400">Acerca de nosotros</a></li>
-                </ul>
-            </div>
-
-            <!-- Productos -->
-            <div>
-                <h3 class="text-yellow-400 font-bold mb-4">PRODUCTOS</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-yellow-400">Ofertas</a></li>
-                    <li><a href="#" class="hover:text-yellow-400">Productos más vendidos</a></li>
                 </ul>
             </div>
 
